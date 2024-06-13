@@ -1,0 +1,25 @@
+#db
+db.connection.dbdriver=org.firebirdsql.jdbc.FBDriver
+db.connection.dburl=jdbc:firebird://IPADDRESS:
+db.connection.dbport=PORT
+db.connection.dbname=/DBNAME.FDB
+db.connection.dbusername=DBUSERNAMe
+db.connection.dbpass=DBPASSWORD
+db.connection.dbencoding=WIN1251
+#app
+app.daysToDeleteIP=365
+app.timeBetweenStart=5
+app.daemonStatus=false
+
+#Configuration for input Data
+app.clustersDataPath=./data/
+app.clustersFile=Clusters.dat
+app.poolIpAddressFile=PoolIpAddress.dat
+app.poolSwitchesFile=PoolSwitches.dat
+app.ipRangeFile=Range.dat
+
+#Configuration for output Data
+app.exportDataPath=./freeIP/
+app.fileClasses=classes.conf
+app.fileStaticEnd=_static.conf
+app.fileDenyEnd=_deny.conf

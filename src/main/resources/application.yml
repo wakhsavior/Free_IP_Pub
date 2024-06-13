@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: FreeIP
+  main:
+    web_environment: false
+    show_banner: false
+
